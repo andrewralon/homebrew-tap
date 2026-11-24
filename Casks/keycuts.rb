@@ -1,9 +1,9 @@
 cask "keycuts" do
   arch arm: "arm64", intel: "x64"
 
-  version "2.2.0"
-  sha256 arm:   "27fc7e9c6d3d1d8e7abab2538801a2d3c223741f13af66fbdfde602cb2bf98c4",
-         intel: "4166b18bb5b715ebe2368ee2d7c241d902380d1103ceabe8db36ea215debde13"
+  version "2.2.1"
+  sha256 arm:   "aa94e8ed1da1f72cbeae91e86f60479e349b14c437c0117e6e91437d465df7ec",
+         intel: "488de9d378aa6e806ca77c9dc777e44d6d7d728abc88dd50ffb025420cddfb3d"
 
   url "https://github.com/andrewralon/keycuts/releases/download/v#{version}/keycuts-setup-#{arch}.pkg"
   name "keycuts"
